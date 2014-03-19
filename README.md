@@ -14,8 +14,9 @@ To get a random fortune access API via url: `/fortune/{?long}/{?dirty}`
 
 Parameters:
 
-__long:__ 0 = disallow long, 1 = force long, null value indicates allow but do not force (integer, optional)
-__dirty:__ 0 = only clean ones, 1 = only dirty ones, null value defaults to only clean ones (integer, optional) 
+    long: 0 = disallow long, 1 = force long, null value indicates allow but do not force (integer, optional)
+    
+    dirty: 0 = only clean ones, 1 = only dirty ones, null value defaults to only clean ones (integer, optional) 
 
 ## Testing
 
